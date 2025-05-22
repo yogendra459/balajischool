@@ -31,11 +31,11 @@ const Footer = () => {
 
       <div className="footer-bottom">
         <p>&copy; 2025 Balaji School. All rights reserved.</p>
-        <div className="social-icons">
-          <a href="#">Facebook</a>
-          <a href="#">Twitter</a>
-          <a href="#">Instagram</a>
-        </div>
+          <div className="social-icons">
+    <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a>
+    <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">Twitter</a>
+    <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a>
+  </div>
       </div>
     </footer>
   );
