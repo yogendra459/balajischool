@@ -1,0 +1,103 @@
+.about {
+  background-color: #ffffff;
+  padding: 60px 20px;
+  color: #333;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.about .container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.about h2 {
+  font-size: 36px;
+  color: #004080;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.about h3 {
+  font-size: 24px;
+  color: #0066cc;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.about p {
+  font-size: 16px;
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+.about ul {
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.about ul li {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 8px;
+  list-style: disc;
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+  .about h2 {
+    font-size: 28px;
+  }
+
+  .about h3 {
+    font-size: 20px;
+  }
+
+  .about p,
+  .about ul li {
+    font-size: 15px;
+  }
+
+  .about {
+    padding: 40px 15px;
+  }
+}
+
+
+.school-image {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.school-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+.principal-profile {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.directorPhoto {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #004080;
+  margin-bottom: 10px;
+}
+.principalPhoto {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #004080;
+  margin-bottom: 10px;
+}
+
+.principal-profile p {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.4;
+}
